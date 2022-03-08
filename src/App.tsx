@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App" style={{paddingTop: 30, width: 300, paddingLeft: 30}}>
       <PhoneInput
-        // @ts-ignore
         component={TextField}
         inputProps={{variant: 'filled'}}
         value={phone}
